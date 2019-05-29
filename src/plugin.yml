@@ -1,0 +1,9 @@
+name: BetterSMP
+version: 1.0.0
+author: Hunter Parcells
+main: com.netlify.hparcells.Main
+api-version: 1.14
+commands:
+  whereIs:
+    usage: /whereIs [Player]
+    description: Gets the coordinates of the specified player.
