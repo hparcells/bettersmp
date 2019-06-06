@@ -26,7 +26,7 @@ public class WhereIs implements Listener, CommandExecutor {
                     String location = String.format("(%1$s, %2$s, %3$s)",
                             Math.round(playerLocation.getX()),
                             Math.round(playerLocation.getY()),
-                            Math.round(playerLocation.getX())
+                            Math.round(playerLocation.getZ())
                     );
 
                     commandSender.sendMessage(ChatColor.GREEN + String.format("%1$s is at %2$s in %3$s.",

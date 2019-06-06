@@ -21,7 +21,7 @@ public class CompassRightClick implements Listener {
                 String location = String.format("(%1$s, %2$s, %3$s)",
                         Math.round(playerLocation.getX()),
                         Math.round(playerLocation.getY()),
-                        Math.round(playerLocation.getX())
+                        Math.round(playerLocation.getZ())
                 );
                 player.sendMessage(ChatColor.GREEN + String.format("You are at %1$s in %2$s.",
                     location,

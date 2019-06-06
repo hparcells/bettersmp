@@ -17,7 +17,7 @@ public class PlayerDeath implements Listener {
         String location = String.format("(%1$s, %2$s, %3$s)",
                 Math.round(playerLocation.getX()),
                 Math.round(playerLocation.getY()),
-                Math.round(playerLocation.getX())
+                Math.round(playerLocation.getZ())
         );
         Bukkit.broadcastMessage(ChatColor.GREEN + String.format("%1$s died at %2$s in %3$s.",
                 player.getName(),
